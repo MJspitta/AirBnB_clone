@@ -1,0 +1,29 @@
+@import "4-common.css";
+
+.filters {
+    color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+button {
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 48px;
+    width: 20%;
+    margin-right: 10px;
+    float: right;   
+    justify-content: center;
+}
+button:hover {
+    opacity: .9;
+}
